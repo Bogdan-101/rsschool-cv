@@ -1,0 +1,180 @@
+body {
+    margin: 20px auto;
+    width: 1000px;
+}
+
+header {
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header .photo img {
+    width: 283px;
+    margin-right: 10px;
+}
+
+header .name_and_contacts {
+    width: 700px;
+}
+
+.name_and_contacts h2 {
+    text-align: center;
+    margin: 0 20px 30px 0;
+    border: 1px solid #444;
+    padding: 5px;
+}
+
+.name_and_contacts ul {
+    list-style-type: none;
+    margin: 10px;
+    padding-inline-start: 0;
+}
+
+.bio_contacts_interested_git .bio h5 {
+    font-size: 19px;
+    margin: 0;
+    padding: 10px 0 0 10px;
+}
+
+.bio_and_git .bio .bio_text {
+    width: 397px;
+    height: 181px;
+    font-size: 15px;
+    margin: 4px;
+    margin-top: 3px;
+    padding-bottom: 17px;
+    margin-bottom: 0;
+}
+
+.name_and_contacts .contacts {
+    width: 224px;
+    height: 154px;
+    border: 1px solid #333;
+}
+
+.name_and_contacts .contacts h5 {
+    font-size: 19px;
+    padding-left: 18px;
+    margin: 0px 0 0px 0;
+    padding-top: 10px;
+}
+
+.name_and_contacts ul li {
+    padding: 10px;
+    width: 173px;
+}
+
+.name_and_contacts p {
+    padding: 10px;
+    width: 200px;
+    height: 16px;
+}
+
+.bio_contacts_interested_git {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_and_contacts p a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.name_and_contacts p a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.github_and_langs .bio {
+    border: 1px solid #333;
+}
+
+.name_and_contacts .github_and_langs .github {
+    margin: 17px 0 0 206px;
+    border: 1px solid #333;
+}
+
+.contacts_and_interested {
+    width: 253px;
+}
+
+.contacts_and_interested .interested_in_or_used {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.contacts_and_interested .interested_in_or_used ul {
+    width: 300px;
+    padding: 0;
+    margin: -9px 0 0 6px;
+}
+
+.contacts_and_interested .interested_in_or_used li{
+    display: inline-block;
+    border: 1px solid #333;
+    margin: 2px;
+    padding: 2px 3px;
+    width: 100px;
+}
+
+.contacts_and_interested .interested_in_or_used p {
+    border: none;
+    margin: -8px 0 0 0;
+    height: auto;
+}
+
+.contacts_and_interested .bio {
+    width: 449px;
+    display: inline-block;
+}
+
+.experience {
+    margin-top: 20px;
+    border: 1px solid #333;
+    padding: 14px;
+}
+
+.experience h5 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.experience .experience_text a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.experience .experience_text a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.education {
+    margin-top: 20px;
+    border: 1px solid #333;
+    padding: 14px;
+}
+
+.education h5 {
+    margin: 0;
+    font-size: 19px;
+}
+
+.english {
+    margin-top: 20px;
+    border: 1px solid #333;
+    padding: 14px;
+}
+
+.english h5 {
+    margin: 0;
+    font-size: 19px;
+}
